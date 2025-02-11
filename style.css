@@ -6,9 +6,16 @@
   box-sizing: border-box;
 }
 #play-btn {
-  position: relative;
+  width: 100px;
+  height: 50px;
+  border-color: none;
+  background-color: pink;
+  margin-left: -2rem;
+
+  position: static;
   z-index: 1000; /* Ensures it's clickable */
 }
+
 :root {
   --dark-color: #000;
 }
